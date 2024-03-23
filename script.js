@@ -52,7 +52,7 @@ btnRoll.addEventListener('click', function () {
     //2. Display dice
     diceEl.classList.remove('hidden');
     console.log(randomNum);
-    diceEl.src = `dice-${randomNum}.png`;
+    diceEl.src = `images/dice-${randomNum}.png`;
     //3. Check for rolled 1
     if (randomNum !== 1) {
       //Add dice to current score
